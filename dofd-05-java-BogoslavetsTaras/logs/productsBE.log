@@ -1,0 +1,59 @@
+2023-11-18T15:50:58.245+02:00  INFO 3196 --- [main] s.a.s.SimplecrudApplicationTests         : Starting SimplecrudApplicationTests using Java 17.0.7 with PID 3196 (started by BTB in C:\hw8\dofd-05-java-BogoslavetsTaras)
+2023-11-18T15:50:58.260+02:00  INFO 3196 --- [main] s.a.s.SimplecrudApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2023-11-18T15:51:00.328+02:00  INFO 3196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18T15:51:00.429+02:00  INFO 3196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2023-11-18T15:51:01.218+02:00  INFO 3196 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-18T15:51:01.338+02:00  INFO 3196 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-11-18T15:51:02.152+02:00  INFO 3196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-18T15:51:02.549+02:00  INFO 3196 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./productsDB user=SA
+2023-11-18T15:51:02.552+02:00  INFO 3196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-18T15:51:02.629+02:00  INFO 3196 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-18T15:51:03.910+02:00  INFO 3196 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-18T15:51:03.929+02:00  INFO 3196 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18T15:51:07.124+02:00  INFO 3196 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./productsDB'
+2023-11-18T15:51:07.232+02:00  INFO 3196 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-11-18T15:51:07.411+02:00  INFO 3196 --- [main] s.a.s.SimplecrudApplicationTests         : Started SimplecrudApplicationTests in 9.751 seconds (process running for 11.752)
+2023-11-18T15:51:07.921+02:00  INFO 3196 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18T15:51:07.926+02:00  INFO 3196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-18T15:51:07.935+02:00  INFO 3196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-18T16:19:29.480+02:00  INFO 11880 --- [main] s.a.simplecrud.SimplecrudApplication     : Starting SimplecrudApplication v0.0.1-SNAPSHOT using Java 17.0.7 with PID 11880 (C:\hw8\dofd-05-java-BogoslavetsTaras\target\simplecrud-0.0.1-SNAPSHOT.jar started by BTB in C:\hw8\dofd-05-java-BogoslavetsTaras)
+2023-11-18T16:19:29.489+02:00  INFO 11880 --- [main] s.a.simplecrud.SimplecrudApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-11-18T16:19:31.652+02:00  INFO 11880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-18T16:19:31.768+02:00  INFO 11880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2023-11-18T16:19:33.092+02:00  INFO 11880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-18T16:19:33.121+02:00  INFO 11880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-18T16:19:33.122+02:00  INFO 11880 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-11-18T16:19:33.315+02:00  INFO 11880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-18T16:19:33.317+02:00  INFO 11880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3727 ms
+2023-11-18T16:19:33.589+02:00  INFO 11880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-18T16:19:34.105+02:00  INFO 11880 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./productsDB user=SA
+2023-11-18T16:19:34.109+02:00  INFO 11880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-18T16:19:34.131+02:00  INFO 11880 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./productsDB'
+2023-11-18T16:19:34.385+02:00  INFO 11880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-18T16:19:34.486+02:00  INFO 11880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-11-18T16:19:35.063+02:00  INFO 11880 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-11-18T16:19:36.417+02:00  INFO 11880 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-18T16:19:36.429+02:00  INFO 11880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18T16:19:38.278+02:00  INFO 11880 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2023-11-18T16:19:38.411+02:00  WARN 11880 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-18T16:19:38.416+02:00  INFO 11880 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-18T16:19:38.420+02:00  INFO 11880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-18T16:19:38.441+02:00  INFO 11880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-18T16:19:38.443+02:00  INFO 11880 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-18T16:19:38.484+02:00  INFO 11880 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-18T16:19:38.521+02:00 ERROR 11880 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
